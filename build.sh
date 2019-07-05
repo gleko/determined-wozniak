@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -e
-BUILD_DIR="build"
+BUILD_DIR="__build"
 BUILD_BIN="DeterminedWozniak"
 
 # Take care of dependencies
