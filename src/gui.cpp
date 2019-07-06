@@ -4,10 +4,10 @@
 #include <chrono>
 #include <thread>
 #include <cmath>
-#include "SDL.h"
+#include <SDL2/SDL.h>
 
-#include "utils.h"
-#include "tinyraycaster.h"
+#include <utils.h>
+#include <tinyraycaster.h>
 
 int main() {
     if (SDL_Init(SDL_INIT_VIDEO)) {
