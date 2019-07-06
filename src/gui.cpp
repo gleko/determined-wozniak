@@ -23,8 +23,8 @@ int main() {
                     {5.323, 5.365, 1, 0},
                     {14.32, 13.36, 3, 0},
                     {4.123, 10.76, 1, 0} },
-                  Texture("../walltext.bmp", SDL_PIXELFORMAT_ABGR8888),  // textures for the walls
-                  Texture("../monsters.bmp", SDL_PIXELFORMAT_ABGR8888)}; // textures for the monsters
+                  Texture("../assets/walltext.bmp", SDL_PIXELFORMAT_ABGR8888),  // textures for the walls
+                  Texture("../assets/monsters.bmp", SDL_PIXELFORMAT_ABGR8888)}; // textures for the monsters
     if (!gs.tex_walls.count || !gs.tex_monst.count) {
         std::cerr << "Failed to load textures" << std::endl;
         return -1;
