@@ -1,5 +1,4 @@
-#ifndef TINYRAYCASTER_H
-#define TINYRAYCASTER_H
+#pragma once
 
 #include <vector>
 
@@ -18,6 +17,4 @@ struct GameState {
 };
 
 void render(FrameBuffer &fb, const GameState &gs);
-
-#endif // TINYRAYCASTER_H
 

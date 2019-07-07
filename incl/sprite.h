@@ -1,5 +1,4 @@
-#ifndef SPRITE_H
-#define SPRITE_H
+#pragma once
 
 #include <cstdlib>
 
@@ -9,6 +8,4 @@ struct Sprite {
     float player_dist;
     bool operator < (const Sprite& s) const;
 };
-
-#endif // SPRITE_H
 

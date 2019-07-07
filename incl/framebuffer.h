@@ -1,5 +1,4 @@
-#ifndef FRAMEBUFFER_H
-#define FRAMEBUFFER_H
+#pragma once
 
 #include <cstdint>
 #include <cstdlib>
@@ -13,6 +12,4 @@ struct FrameBuffer {
     void set_pixel(const size_t x, const size_t y, const uint32_t color);
     void draw_rectangle(const size_t x, const size_t y, const size_t w, const size_t h, const uint32_t color);
 };
-
-#endif // FRAMEBUFFER_H
 

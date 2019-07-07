@@ -1,5 +1,4 @@
-#ifndef PLAYER_H
-#define PLAYER_H
+#pragma once
 
 struct Player {
     float x, y; // position
@@ -7,6 +6,4 @@ struct Player {
     float fov;  // field of view
     int turn, walk;
 };
-
-#endif // PLAYER_H
 
