@@ -5,7 +5,7 @@
 #include <vector>
 
 struct FrameBuffer {
-    size_t w, h; // image dimensions
+    size_t width, height; // image dimensions
     std::vector<uint32_t> img; // storage container
 
     void clear(const uint32_t color);
